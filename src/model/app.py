@@ -2,17 +2,20 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-# ==============================
 # Configuración de página
-# ==============================
 st.set_page_config(page_title="Life Expectancy Project", layout="wide")
 
+# Imagen
+st.image("src/assets/top_left.png", use_container_width=True)
+
 st.title("Envejecimiento poblacional y esperanza de vida")
+
 
 st.write("""
 Aplicación interactiva para analizar factores asociados
 a la esperanza de vida usando datos del Global Burden of Disease.
 """)
+
 
 # Imagen Iris
 st.subheader("Ejemplo de imágenes (Iris)")
