@@ -8,10 +8,16 @@ import plotly.express as px
 st.set_page_config(page_title="Life Expectancy Project", layout="wide")
 
 st.title("Envejecimiento poblacional y esperanza de vida")
+
 st.write("""
-Aplicación interactiva para analizar factores asociados a la esperanza de vida
-usando datos del Global Burden of Disease (IHME/GBD).
+Aplicación interactiva para analizar factores asociados
+a la esperanza de vida usando datos del Global Burden of Disease.
 """)
+
+# Imagen Iris
+st.subheader("Ejemplo de imágenes (Iris)")
+st.image("src/assets/iris1.png", use_container_width=True)
+
 
 # ==============================
 # Cargar datos
